@@ -5,9 +5,14 @@ $yellow: #f9b43b;
 $black: #2f3234;
 $red: #e35028;
 
+// breakponts
+$tablets: 768px;
+$phones: 480px;
+
 // misc
 @import "./_misc/normalize.scss";
 @import "./_misc/fonts.scss";
+@import "./_misc/media.scss";
 @import "_misc/layout.scss";
 
 // block
