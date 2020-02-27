@@ -1,0 +1,21 @@
+.features__pic {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.features__svg {
+  width: 97px;
+  height: 89px;
+}
+
+.features__desc {
+  text-align: center;
+}
+
+.features__title {
+  @include lifehack();
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}

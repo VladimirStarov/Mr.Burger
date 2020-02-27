@@ -1,0 +1,25 @@
+.we {
+  background: url("../img/bg/we-bg.jpg") center center / cover no-repeat;
+}
+
+.we__container {
+  justify-content: center;
+}
+
+.we__content {
+  text-align: center;
+}
+
+.we__list {
+  display: flex;
+  margin-top: 15px;
+}
+
+.we__item {
+  flex: 1;
+  margin-right: 10px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}

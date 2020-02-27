@@ -1,0 +1,25 @@
+// colors
+$orange: #e45028;
+$orange-hover: #c1401e;
+$yellow: #f9b43b;
+$black: #2f3234;
+$red: #e35028;
+
+// misc
+@import "./_misc/normalize.scss";
+@import "./_misc/fonts.scss";
+@import "_misc/layout.scss";
+
+// block
+@import "./block/hero.scss";
+@import "./block/header.scss";
+@import "./block/logo.scss";
+@import "./block/menu.scss";
+@import "./block/btn.scss";
+@import "./block/section-title.scss";
+@import "./block/down-arrow.scss";
+@import "./block/we.scss";
+@import "./block/features.scss";
+@import "./block/reviews.scss";
+@import "./block/review.scss";
+

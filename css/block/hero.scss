@@ -1,0 +1,27 @@
+.hero {
+  background: url('../img/bg/hero-bg.jpg') center center / cover no-repeat;
+  padding-top: 12px;
+  padding-bottom: 40px;
+}
+
+.hero__content {
+  display: flex;
+  flex: 0.8;
+  align-items: center;
+}
+
+.hero__content-image {
+  width: 50%;
+}
+
+.hero__content-text {
+  width: 50%;
+  padding-top: 80px;
+}
+
+.hero__desc {
+  font-size: 65px;
+  @include lifehack;
+  line-height: 1;
+  color: #fff;
+}
